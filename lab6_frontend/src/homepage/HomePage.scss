@@ -1,0 +1,182 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    margin: 20px 50px;
+    align-self: end;
+}
+.blogs{
+    width: 60%;
+   
+
+    .blog{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        border: 2px solid #000000;
+        margin-bottom: 30px;
+        background-color: rgb(251, 190, 215);
+        .content-blog{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .content-user{
+                display: flex;
+                width: 100%;
+                
+                .avt{
+                    padding-right: 10px;
+                    
+                    .icon-user{
+                        font-size: 25px;
+                        border: 1px solid #000000;
+                        border-radius: 50%;
+                        padding: 10px;
+                    }
+                }
+                .content-user-name{
+                    // margin-top: 5px ;
+                }
+                .username{
+                    font-size: 24px;
+                    font-weight: bold;
+                
+                }
+                .time{
+                    font-style: italic;
+                }
+            }
+            .content{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                .content-title, .content-meta-title, .content-content, .content-summary{
+                    width: 100%;
+                    font-size: 18px;
+                }
+                .content-meta-title{
+                    font-weight: 550;
+                }
+                .content-content{
+                
+                }
+                .content-summary{
+                
+                }
+            }
+    
+        }
+        .content-feature{
+            display: flex;
+            justify-content: space-around;
+            padding-bottom: 20px;
+            
+            .icon-feature{
+                font-size: 20px;
+                cursor: pointer;
+            }
+    
+        }
+        .content-comment{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .modal-comments{
+                height: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                margin: 10px 0px;
+                .form-comment{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    .icon-user{
+                        font-size: 15px;
+                        border: 1px solid #000000;
+                        border-radius: 50%;
+                        padding: 5px;
+                        margin-right: 10px;
+                    }
+                    .comment{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: flex-start;
+                        border: 1px solid black;
+                        padding: 10px;
+                        border-radius: 10px;
+
+                    }
+                }
+                .form-feature-input{
+                    width: 100%;
+                    // height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+    
+                    .form-feature{
+                        width: 100%;
+                        // height: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+                        margin-left: 45px;
+                        margin-top: 5px;
+                        font-weight: bold;
+        
+                        .txt-feature{
+                            font-size: 14px;
+                            cursor: pointer;
+                        }
+                        
+                        .txt-feature + .txt-feature{
+                            margin-left: 15px;
+                        }
+                    }
+                }
+                .view-reply{
+                    font-size: 14px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    margin-left: 45px;
+                    margin-top: 5px;
+                }
+            }
+            .input-comment{
+                display: flex;
+                justify-content: space-around;
+                input{
+                    width: 100%;
+                    border-radius: 10px;
+                    font-size: 15px;
+                    line-height: 20px;
+                    padding-left: 10px;
+                    margin-right: 10px;
+                    border: none;
+                    outline: none;
+                }
+                .icon-send{
+                    font-size: 28px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+
