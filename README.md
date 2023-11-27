@@ -1,7 +1,7 @@
 # www_lab6_week6_KimNgan
 www_lab6_week6_KimNgan
 - Đăng nhập (tài khoản Ngân Kim Lê): ![image](https://github.com/iamngo/www_lab6_week6_KimNgan/assets/88821216/c843982e-461c-4e44-a224-fd1cd0daffdf)
-- Đăng nhập thành công -> Hiển thị homepage với các bài viết đã đăng: ![image](https://github.com/iamngo/www_lab6_week6_KimNgan/assets/88821216/d121fc73-0b1b-4a02-93e1-feab57b53471)
+- Đăng nhập thành công -> Hiển thị homepage với các bài viết đã đăng sắp xếp theo thời gian gần nhất: ![image](https://github.com/iamngo/www_lab6_week6_KimNgan/assets/88821216/d121fc73-0b1b-4a02-93e1-feab57b53471)
 - Thêm bài viết: ![image](https://github.com/iamngo/www_lab6_week6_KimNgan/assets/88821216/27f5bff5-d8f0-4ea7-8116-25b1c4ee2753)
 - Thêm bài viết thành công: ![image](https://github.com/iamngo/www_lab6_week6_KimNgan/assets/88821216/4586871d-1d05-419e-90f0-3ed1582b1e53)
 - Tài khoản Ngân Kim Lê comment bài viết của Đẹt Thị Thân: ![image](https://github.com/iamngo/www_lab6_week6_KimNgan/assets/88821216/26edd14a-6f2b-432a-8904-bc57b341cbe8) ![image](https://github.com/iamngo/www_lab6_week6_KimNgan/assets/88821216/05439e5b-496e-439b-a5bc-9cefe6e8be56)
